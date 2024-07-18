@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url(../img/Alucard\ Nosferatu.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    & img{
+        transition: 1s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    & nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 1rem;
+        & a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+            transition: 1s;
+            &:hover{
+                color: black;
+                background-color: white;
+                padding: 5px;
+                border-radius: 5px;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
