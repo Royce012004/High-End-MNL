@@ -59,8 +59,6 @@ section{
             align-items: center;
             background-color: #fff;
             padding: 20px;
-            width: 50dvw;
-            height: 70dvh;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             & img{
